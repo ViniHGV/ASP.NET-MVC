@@ -2,7 +2,19 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Seja bem vindo ao Projeto MVC</h1>
-    <p>Siga os menus acima.</p>
-</div>
+@if (@TempData["nomeUsuario"] != null)
+{
+    @Html.ActionLink("Deslogar", "Logout", "Login", null, null)
+
+    <div class="text-center">
+        <h1 class="display-4">Seja bem vindo <b>@TempData["nomeUsuario"]</b> ao Projeto MVC</h1>
+    </div>
+
+}else
+{
+    @Html.ActionLink("Logar", "Index", "Login", null, null)
+
+    <div class="text-center">
+        <h1 class="display-4">Seja bem vindo ao Projeto MVC</h1>
+    </div>
+}

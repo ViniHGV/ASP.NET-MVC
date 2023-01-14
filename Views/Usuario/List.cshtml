@@ -1,0 +1,49 @@
+﻿@model IEnumerable<ProjetoMVC.Models.Usuario>
+
+
+@{
+    ViewData["title"] = "Listagem De Contatos";
+}
+
+
+<div style="text-align:center;">
+    <h1>Bem Vindo a Página de Lístagem </h1>
+    <br>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Id)</th>
+                <th>@Html.DisplayNameFor(model => model.Nome) </th>
+                <th> @Html.DisplayNameFor(model => model.Email)</th>                                                            
+                <th>@Html.DisplayNameFor(model => model.Senha)</th>
+                <th scope="col"><a type="button" class="btn btn-success" asp-controller="Usuario" asp-action="Criar">Adicionar Usuário</a></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            { 
+                <tr>
+                    <td>
+                        @Html.DisplayFor(model => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(model => item.Nome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(model => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(model => item.Senha)
+                    </td>
+                    <td>
+                      <div class="btn-group" role="group" aria-label="Basic outlined example">
+                            <a type="button" asp-controller="Usuario" asp-action="Editar" asp-route-id="@item.Id" class="btn btn-primary">Editar</a>
+                            <a type="button" asp-controller="Usuario" asp-action="Excluir" asp-route-id="@item.Id" class="btn btn-danger">Excluir</a>
+                      </div>
+                    </td>
+                </tr>
+            }
+    
+        </tbody>
+    </table>
+</div>

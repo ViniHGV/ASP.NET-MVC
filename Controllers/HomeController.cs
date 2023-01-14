@@ -7,9 +7,13 @@ namespace ProjetoMVC.Controllers
 {
     public class HomeController : Controller
     {
-
         public IActionResult Index()
         {
+            //if(HttpContext.)
+            var nome = HttpContext.User.Claims.FirstOrDefault(p => p.Type.Equals("user"))?.Value;
+
+            TempData["nomeUsuario"] = nome;
+
             return View();
         }
 

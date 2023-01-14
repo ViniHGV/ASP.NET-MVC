@@ -11,11 +11,11 @@
             </div>
         <div>
 
-            @if (TempData["MensagemErro"] != null)
+            @if (ViewData["MensagemErro"] != null)
             {
                 <div class="alert alert-danger" role="alert">
                     <button type="button" class="btn btn-danger btn-sm close-alert" data-bs-dismiss="alert" arial-label="Close">X</button>
-                    @TempData["MensagemErro"]
+                    @ViewData["MensagemErro"]
                  </div>
             }
 
@@ -33,7 +33,7 @@
                 <br>
                 <div style="text-align:center;" class="d-grid gap-2">
                     <button type="submit" class="btn btn-primary">Entrar</button>
-                    <a asp-controller="Usuario" asp-action="Editar" style="text-decoration: none; color:black;" class="EsqSenha">Esqueceu a senha?</a>
+                    <a asp-controller="Usuario" asp-action="EsqueceuSenha" style="text-decoration: none; color:black;" class="EsqSenha">Esqueceu a senha?</a>
                 </div>
             </form>
         </div>

@@ -1,0 +1,37 @@
+﻿@model ProjetoMVC.Models.Usuario
+@{
+    ViewData["Title"] = "Esqueceu a senha";
+}
+<div class="PagEditar">
+    <div class="Editar">
+        <div class="title" style="text-align:center;">
+            <h1 style="color:red;">Gerar nova senha</h1>
+        </div>
+
+        @if (ViewData["statusEmail"] != null)
+        {
+            var cssclass = ViewData["statusEmail"] == "erro" ? "danger" : "success";
+
+            <div class="alert alert-@cssclass" role="alert">
+                <button type="button" class="btn btn-@cssclass btn-sm close-alert" data-bs-dismiss="alert" arial-label="Close">X</button>
+                @ViewData["mensagem"]
+            </div>
+        }
+
+        <div class="row">
+            <form asp-action="EsqueceuSenha">
+                
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label">Preencha seu e-mail para que possamos reenviar um link de ativação de nova senha</label>
+                    <input type="Email" class="form-control" placeholder="Seu email" asp-for="Email" />
+                </div>
+                
+                <br>
+                <div style="text-align:center;" class="d-grid gap-2">
+                    <input type="submit" value="Enviar" class="btn btn-danger" />
+                    <a type="button" asp-controller="Login" asp-action="Index" class="btn btn-primary">Cancelar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
