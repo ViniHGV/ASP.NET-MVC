@@ -9,57 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjetoMVC
 build_property.RootNamespace = ProjetoMVC
-build_property.ProjectDir = c:\Users\Vinicius\source\repos\ProjetoMVC\ProjetoMVC\
+build_property.ProjectDir = C:\Users\Vinicius\source\repos\ProjetoMVC\ProjetoMVC\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\Vinicius\source\repos\ProjetoMVC\ProjetoMVC
+build_property.MSBuildProjectDirectory = C:\Users\Vinicius\source\repos\ProjetoMVC\ProjetoMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/Home/Index.cshtml]
+[C:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/Login/Index.cshtml]
+[C:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/Shared/Error.cshtml]
+[C:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/Usuario/Criar.cshtml]
+[C:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/Usuario/Criar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmlhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/Usuario/Editar.cshtml]
+[C:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/Usuario/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/Usuario/Excluir.cshtml]
+[C:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/Usuario/Excluir.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFeGNsdWlyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/Usuario/Index.cshtml]
+[C:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/Usuario/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/_ViewImports.cshtml]
+[C:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/_ViewStart.cshtml]
+[C:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/Shared/Deslogado.cshtml]
+[C:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/Shared/Deslogado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXERlc2xvZ2Fkby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-g4xs0x6qr9
 
-[c:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/Shared/_Layout.cshtml]
+[C:/Users/Vinicius/source/repos/ProjetoMVC/ProjetoMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rn4uvwvjej

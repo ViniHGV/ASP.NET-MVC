@@ -9,6 +9,8 @@ namespace ProjetoMVC.Controllers
     {
         private readonly AgendaContext _context;
 
+       
+
 
         public UsuarioController(AgendaContext context)
         {
@@ -81,5 +83,11 @@ namespace ProjetoMVC.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+        public IActionResult Login()
+        {
+            return RedirectToAction("Index", "Login");
+        }
+
     }
 }

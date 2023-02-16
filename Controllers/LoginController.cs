@@ -7,7 +7,7 @@ namespace ProjetoMVC.Controllers
 {
     public class LoginController : Controller
     {
-        private readonly AgendaContext _context;
+        //private readonly AgendaContext _context;
 
         [HttpPost]
         public IActionResult Logar(LoginModel loginModel)
