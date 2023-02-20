@@ -86,7 +86,7 @@ namespace ProjetoMVC.Controllers
 
         public IActionResult Login()
         {
-            return RedirectToAction("Index", "Login");
+            return RedirectToAction("Index", "Login"); 
         }
 
     }
